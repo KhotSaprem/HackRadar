@@ -1,0 +1,54 @@
+# Environment Variables - CRITICAL: Never commit these!
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+hackradar.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+ENV/
+env/
+.venv
+*.egg-info/
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# OS
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+
+# Scraped data (keep structure, not data)
+backend/*.json
+!backend/package.json
+backend/devfolio_nextdata_*.json
+backend/unstop_response.json
