@@ -58,6 +58,7 @@ htmlcov/
 *.json
 !package.json
 !package-lock.json
+!vercel.json
 
 # Temporary files
 *.tmp
